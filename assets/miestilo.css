@@ -76,7 +76,7 @@ p, h1, h2, h3 {
 .carousel-item img {
     width: 100%; /* Ocupa el 100% del ancho del contenedor */
     height: 60vh; 
-    object-fit: cover; /* Cubre el área del contenedor sin deformar la imagen */
+    object-fit: cover; /* Cubre el área del contenedor sin deformar la imagen  */
    }
 
 .formulario{
