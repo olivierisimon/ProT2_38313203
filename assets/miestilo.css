@@ -74,10 +74,10 @@ p, h1, h2, h3 {
 }
 
 .carousel-item img {
-    max-width: 100%;
-    height: auto;
-    max-height: 60vh;
-  }
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: 60vh; 
+    object-fit: cover; /* Cubre el área del contenedor sin deformar la imagen */
+   }
 
 .formulario{
     background-color: #c2cba7;
